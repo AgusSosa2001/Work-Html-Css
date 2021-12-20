@@ -1,0 +1,38 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.contenedor-padre {
+    width: 100%;
+}
+
+.img-titulo {
+   width: 50%;
+}
+
+.titulo-principal {
+    color: #022837;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 5rem;
+
+}
+    
+
+.texto {
+   
+}
+
+.primer-caja {
+
+}
+
+.segunda-caja {
+
+}
+
+.botones {
+
+}
