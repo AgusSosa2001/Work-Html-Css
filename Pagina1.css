@@ -19,18 +19,107 @@ body {
     padding-left: 5rem;
 
 }
-    
 
 .texto {
-   
+    width: 100%;
+   display: flex;
+   flex-direction: row;
 }
 
 .primer-caja {
+    flex-grow: 1;
+    padding-right: 10em;
+}
+
+.sub-titulo {
+    display: inline-block;
+    color: #000;
+    background: #fff;
+    mix-blend-mode: multiply;
+    position: relative;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 5rem;
 
 }
 
-.segunda-caja {
+.sub-titulo::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #2A81E8, #1E9BE3, #278AE7);
+    mix-blend-mode: screen;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
+.parrafo {
+    color: #000;
+    padding-left: 5rem;
+    font-size: 16px;
+    margin-top: 0%;
+    font-family: sans-serif;
+}
+
+.segunda-caja {
+    flex-grow: 1;
+    padding-right: 8em;
+}
+
+.circulo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 50px;
+    background: linear-gradient(to right, #88CAF6, #3334EB, #181DE8);
+}
+
+.gota {
+    height: 120px;
+    width: 120px;
+    border-radius: 0% 50% 50% 50%;
+    transform: rotate(820deg);
+    margin-left: -30px;
+    margin-top: -50px;
+    background: linear-gradient(to right, #B2E3FA, #C1DBFC);
+}
+
+
+.cuadrado {
+color: blue;
+background-color: white;
+border-radius: 20px;
+width: 200px;
+height: 200px;
+position: absolute;
+bottom: 150px;
+margin-left: 50px;
+box-shadow: 2px 2px 6px 2px black;
+font-size: 20px;
+text-align: center;
+}
+
+.gradiente {
+    display: inline-block;
+    color: #000;
+    background-color: #fff;
+    mix-blend-mode: multiply;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.gradiente::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #B101D6, #FF297D, #FE663E);
+    mix-blend-mode: screen;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .botones {
