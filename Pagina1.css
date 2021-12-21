@@ -125,9 +125,7 @@ body {
     left: 0;
 }
 
-.buttons {
-
-}
+.buttons {}
 
 .subtitle-2 {
     width: 17%;
@@ -154,8 +152,8 @@ body {
     flex-direction: column;
 }
 
-
-.buttons-2, .buttons-1{
+.buttons-2,
+.buttons-1 {
     flex-grow: 2;
     margin: 50px 100px;
     padding-left: 129px;
@@ -169,7 +167,6 @@ body {
     height: 170px;
     border-radius: 15px;
     text-align: center;
-
 }
 
 .gradient-1 {
