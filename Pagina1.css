@@ -154,6 +154,7 @@ body {
     flex-direction: column;
 }
 
+
 .buttons-2, .buttons-1{
     flex-grow: 2;
     margin: 50px 100px;
