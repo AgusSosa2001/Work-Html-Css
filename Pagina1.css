@@ -1,37 +1,38 @@
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
 }
 
-.contenedor-padre {
+.main-container {
     width: 100%;
 }
 
-.img-titulo {
+.img-title {
    width: 50%;
 }
 
-.titulo-principal {
+.main-title {
     color: #022837;
     font-size: 70px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-left: 5rem;
-
 }
 
-.texto {
+.text-box{
     width: 100%;
    display: flex;
    flex-direction: row;
 }
 
-.primer-caja {
+.hero {
     flex-grow: 1;
     padding-right: 10em;
 }
 
-.sub-titulo {
+.subtitle {
     display: inline-block;
     color: #000;
     background: #fff;
@@ -43,7 +44,7 @@ body {
 
 }
 
-.sub-titulo::before {
+.subtitle::before {
     content: '';
     display: block;
     width: 100%;
@@ -55,7 +56,7 @@ body {
     left: 0;
 }
 
-.parrafo {
+.paragraph {
     color: #000;
     padding-left: 5rem;
     font-size: 16px;
@@ -63,12 +64,12 @@ body {
     font-family: sans-serif;
 }
 
-.segunda-caja {
+.second-box {
     flex-grow: 1;
     padding-right: 8em;
 }
 
-.circulo {
+.circular-box {
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -76,7 +77,7 @@ body {
     background: linear-gradient(to right, #88CAF6, #3334EB, #181DE8);
 }
 
-.gota {
+.drop-box {
     height: 120px;
     width: 120px;
     border-radius: 0% 50% 50% 50%;
@@ -87,7 +88,7 @@ body {
 }
 
 
-.cuadrado {
+.square-box {
 color: blue;
 background-color: white;
 border-radius: 20px;
@@ -101,7 +102,7 @@ font-size: 20px;
 text-align: center;
 }
 
-.gradiente {
+.gradient {
     display: inline-block;
     color: #000;
     background-color: #fff;
@@ -110,7 +111,7 @@ text-align: center;
 
 }
 
-.gradiente::before {
+.gradient::before {
     content: '';
     display: block;
     width: 100%;
@@ -122,6 +123,6 @@ text-align: center;
     left: 0;
 }
 
-.botones {
+.buttons {
 
 }
