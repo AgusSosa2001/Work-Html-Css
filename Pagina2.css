@@ -20,6 +20,7 @@ body {
     font-size: 70px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-left: 5rem;
+    text-transform: uppercase;
 }
 
 .text-box {
@@ -34,7 +35,6 @@ body {
 }
 
 .paragraph {
-
     padding-left: 5rem;
     font-size: 16px;
     margin-top: 0%;
@@ -51,6 +51,7 @@ body {
     background: #fff;
     mix-blend-mode: multiply;
     position: relative;
+    text-transform: uppercase;
 }
 
 .text-gradiente::before {
@@ -67,6 +68,10 @@ body {
 
 .big-text {
     width: 50%;
+}
+
+.text-button {
+    text-transform: uppercase;
 }
 
 .second-box {
