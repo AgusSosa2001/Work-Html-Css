@@ -17,7 +17,7 @@
     background: #fff;
     mix-blend-mode: multiply;
     position: relative;
-    font-size: 35px;
+    font-size: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-left: 5rem;
 }
@@ -42,7 +42,9 @@
 }
 
 .pad-left {
+    font-size: large;
     padding-left: 5rem;
+    color: gray;
 }
 
 .flex-container {
@@ -51,17 +53,59 @@
 }
 
 .aside-flex {
+    display: flex;    
     flex-grow: 2;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .box-img {
-    margin: 7rem;
+    margin: 0px 8rem;
     width: 379px;
     height: 243px;
-    border-radius: 13%;
-}
+    border-radius: 20px;
+    box-shadow: 5px 10px 8px 4px #dfdadf;
+  }
+
 
 .space {
     display: flex;
     flex-direction: column;
+}
+
+.align-text {
+    text-align: center;
+    margin: 2rem;
+    font-size: 100px;
+    display: inline-block;
+    color: #000;
+    background: #fff;
+    mix-blend-mode: multiply;
+    position: relative;
+}
+
+.align-text::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #E200B5, #FE297B, #FE6340);
+    mix-blend-mode: screen;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btn-box {
+   display: flex;
+   justify-content: center;
+}
+
+.btn {
+    margin-top: 25px;
+    padding: 6px;
+    border: double 11px #ffffff;
+    background: linear-gradient(to right, #FFB22C, #FF9A19, #FE8606);
+    border-radius: 25px;
+    width: 16rem;
 }
