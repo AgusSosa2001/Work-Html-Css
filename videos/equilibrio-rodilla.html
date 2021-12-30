@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <title>Página 4 - Videoe 1</title>
+  <script>
+    function resizeIframe(obj) {
+      obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+    }
+  </script>
+</head>
+<body>
+  <iframe src="https://www.youtube.com/embed/S3FlK497sZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen onload="resizeIframe(this)"></iframe>
+</body>
+</html>
