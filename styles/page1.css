@@ -1,0 +1,71 @@
+.module-title {
+    display: inline-block;
+    position: relative;
+    padding: .25rem 2rem;
+    background: linear-gradient(to right, #7326FD, #F56A37);
+    border-radius: 2.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.module-title:after {
+    content: 'Módulo';
+    position: absolute;
+    padding: .25rem 2rem;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    background: #fff;
+    border-radius: 2.5rem;
+}
+
+.module-number {
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: -3.5rem;
+    padding: .25rem 1.5rem;
+    border-radius: 50%;
+    background: linear-gradient(to right, #1BA2E2, #3763ED);
+    color: white;
+}
+
+.buttons-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    padding: 0 16rem;
+    margin-bottom: 6rem;
+}
+
+.buttons-box button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border: none;
+    border-radius: 1.5rem;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.buttons-box button > i {
+    font-size: 4rem;
+}
+
+.gradient-1 {
+    background: linear-gradient(135deg, #AB01DB, #B501D5, #BB01D1);
+}
+
+.gradient-2 {
+    background: linear-gradient(135deg, #BB01D1, #DF01B8, #F601A8);
+}
+
+.gradient-3 {
+    background: linear-gradient(135deg, #F601A8, #FF1094, #FE1392);
+}
