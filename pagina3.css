@@ -179,12 +179,37 @@ body {
     flex-direction: row;
 }
 
-.circle {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
+.circle2 {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
     background-color: white;
+}
+
+.circle {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 2rem;
+}
+
+.bg-gradient1 {
+    background: linear-gradient(to right, #8701F2, #B700D3,#B901D2 );
+}
+
+.bg-gradient2 {
+    background: linear-gradient(to right, #C201CD, #E501B4,#F500A9 );
+}
+
+.bg-gradient3 {
+    background: linear-gradient(to right, #F803A4, #FE2F75, #FF3172 );
+}
+
+.bg-gradient4 {
+    background: linear-gradient(to right, #FE3570, #FE6341, #FF683C );
 }
 
 .btn2 {
@@ -257,7 +282,13 @@ body {
     margin: 0%;
 }
 
-.img-gym {
-    width: 350px;
-    height: 350px;
+.img-center {
+    display: flex;
+    justify-content: center;
 }
+
+.img-gym {
+    width: 63rem;
+        height: auto;
+        border-radius: 4rem;
+    }
