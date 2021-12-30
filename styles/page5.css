@@ -1,0 +1,8 @@
+.box-aside {
+    background-image: url(../assets/gota_5.png);
+    background-size: 80%;
+}
+
+.box-aside.alt-bg {
+    background-image: url(../assets/gota_6.png);
+}
