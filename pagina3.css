@@ -16,7 +16,7 @@ body {
 }
 
 .img-principal {
-    width: 1348px;
+    width: 1370px;
     height: 520px;
 }
 
@@ -27,8 +27,10 @@ body {
     padding-left: 5rem;
     text-transform: uppercase;
     position: absolute;
-    padding-top: 2em;
+    padding-top: 4em;
+    padding-left: 45rem;
 }
+
 
 .text-box {
     width: 100%;
@@ -38,6 +40,11 @@ body {
 }
 
 .hero {
+    flex-grow: 1;
+    padding-right: 10em;
+}
+
+.box-2 {
     flex-grow: 1;
     padding-right: 10em;
 }
@@ -68,41 +75,54 @@ body {
 }
 
 .paragraph {
-    color: #000;
+    color: rgb(169, 169, 169);
     padding-left: 5rem;
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 0%;
     font-family: sans-serif;
     text-align: left;
 }
 
-.second-box {
-    flex-grow: 1;
-    padding-right: 10em;
+.paragraph-1 {
+    color: black;
+    font-size: 25px;
+    padding-left: 5rem;
+    margin-top: 0%;
+    font-family: sans-serif;
+    text-align: left;
 }
 
-
-.drop-box {
-    width: 316px;
-    height: 247px;
+.paragraph-2 {
+    color: rgb(136, 136, 136);
+    padding-left: 5rem;
+    font-size: 10px;
+    margin-top: 0%;
+    font-family: sans-serif;
+    text-align: left;
 }
-
 
 .square-box {
     color: blue;
     background-color: white;
     border-radius: 20px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     position: absolute;
-    bottom: -189px;
+    bottom: -232px;
     margin-left: 50px;
     box-shadow: 2px 2px 6px 2px black;
     font-size: 20px;
     text-align: center;
 }
 
+.drop-box {
+    width: 380px;
+    height: 356px;
+}
+
+
 .gradient {
+    text-decoration: underline;
     display: inline-block;
     color: #000;
     background-color: #fff;
@@ -124,62 +144,120 @@ body {
     left: 0;
 }
 
-
-.subtitle-2 {
-    width: 17%;
-    margin: 2em;
-    border: solid 1px black;
-    border-radius: 20px;
-    text-align: center;
+.text-button {
     text-transform: uppercase;
 }
 
 
-.number-subtitle {
-    position: absolute;
-    border: 2px solid;
-    border-radius: 50%;
-    background: linear-gradient(to right, #2198E5, #3173EA, #336FEB);
-    color: white;
-    margin-left: 272px;
-    width: 50px;
-    text-align: center;
-    margin-top: 0;
+.btn-box {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+    margin-right: 8rem;
 }
 
-.buttons-box {
+.btn {
+    padding: 6px;
+    border: double 11px #ffffff;
+    background: linear-gradient(to right, #FFB22C, #FF9A19, #FE8606);
+    border-radius: 25px;
+    width: 16rem;
+    text-transform: uppercase;
+}
+
+.ejercice {
+    background-color: rgb(187, 187, 187);
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+
+.content {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: white;
+    margin: 2rem;
+}
+
+.btn2 {
+    width: 27rem;
+    padding: 6px;
+    border: double 11px #ffffff;
+    background: linear-gradient(to right, #FFB22C, #FF9A19, #FE8606);
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+
+
+.space {
     display: flex;
     flex-direction: column;
 }
 
-.buttons-2,
-.buttons-1 {
-    flex-grow: 2;
-    margin: 50px 100px;
-    padding-left: 129px;
-}
-
-.gradient-1,
-.gradient-2,
-.gradient-3 {
-    color: white;
-    width: 170px;
-    height: 170px;
-    border-radius: 15px;
+.align-text {
     text-align: center;
+    margin: 2rem;
+    font-size: 100px;
+    display: inline-block;
+    color: #000;
+    background: #fff;
+    mix-blend-mode: multiply;
+    position: relative;
 }
 
-.gradient-1 {
-    background: linear-gradient(to right, #AB01DB, #B501D5, #BB01D1);
-    margin-left: 50px;
+.align-text::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #E200B5, #FE297B, #FE6340);
+    mix-blend-mode: screen;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
-.gradient-2 {
-    background: linear-gradient(to right, #BB01D1, #DF01B8, #F601A8);
-    margin: 0 157px;
+.text-bold {
+    padding-left: 5rem;
 }
 
-.gradient-3 {
-    background: linear-gradient(to right, #F601A8, #FF1094, #FE1392);
-    margin-right: 50px;
+
+.subtitle2 {
+    display: inline-block;
+    color: #000;
+    background: #fff;
+    mix-blend-mode: multiply;
+    position: relative;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 5rem;
+    text-transform: uppercase;
+    margin: 0%;
+
+}
+
+.subtitle2::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #2A81E8, #1E9BE3, #278AE7);
+    mix-blend-mode: screen;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0%;
+}
+
+.img-gym {
+    width: 350px;
+    height: 350px;
 }
