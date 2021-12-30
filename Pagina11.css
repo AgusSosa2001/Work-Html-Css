@@ -303,6 +303,20 @@ h3.sub {
     padding: 3rem;
 }
 
+.gray-block .content {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.equal-food {
+    width: 9rem;
+    margin: 2rem;
+    background-color: rgb(255, 255, 255);
+    height: 12rem;
+    border-radius: 2rem;
+}
+
 .small-box {
     display: flex;
     flex-direction: row;
