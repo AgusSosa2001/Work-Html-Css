@@ -53,15 +53,3 @@ h3.subtitle {
     line-height: 2.2rem;
     color: #032937;
 }
-
-footer.text-box {
-    padding: 0;
-    margin: 0;
-}
-footer.text-box .logo > img {
-    display: block;
-    width: 100%;
-}
-footer.text-box .slogan {
-    text-align: left;
-}
