@@ -49,20 +49,30 @@
     border-radius: 2rem;
 }
 
-
-.box-aside {
-    background-image: url(./assets/gota_1.png);
+.box-aside, .box-aside-1 {
+    margin-top: 10rem;
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.box-aside {
+    background-image: url(gota_7.png);
+  
   }
+
+  .box-aside-1 {
+    background-image: url(gota_8.png);
+  }
+
 
   .square-box {
     width: 23rem;
-    height: 20rem;
+    height: 30rem;
     padding: 2.5rem 1.8rem;
     background: white;
     border-radius: 3rem;
@@ -196,10 +206,12 @@ body {
   
 
 
-.box-aside {
+.box-aside-btn {
     background: none;
     flex-direction: column;
-    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .box-aside img {
