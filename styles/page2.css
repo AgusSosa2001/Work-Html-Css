@@ -1,0 +1,34 @@
+.hero {
+    background-image: url(../assets/gimnasia_3.png);
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.main-title {
+    text-align: right;
+}
+
+.title {
+    margin: 0;
+}
+
+.paragraph {
+    font-size: 1.7rem;
+    line-height: 1.9rem;
+    color: #87868C;
+    font-weight: lighter;
+}
+
+.box-aside {
+    background: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box-aside img {
+    display: block;
+    width: 100%;
+}

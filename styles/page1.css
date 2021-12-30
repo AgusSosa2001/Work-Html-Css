@@ -1,34 +1,4 @@
-.square-box {
-    width: 23rem;
-    height: 20rem;
-    padding: 2.5rem 1.8rem;
-    background: white;
-    border-radius: 3rem;
-    box-shadow: -7px 7px 13px rgba(0,0,0,.15);
-    text-align: center;
-}
 
-.square-box .box-text {
-    margin: 0;
-    font-size: 2.1rem;
-    line-height: 2.1rem;
-    color: #335BDA;
-}
-
-.gradient {
-    background: rgb(0,130,203);
-    background: linear-gradient(90deg, rgba(115,38,254,1) 0%, rgba(255,106,57,1) 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 2.2rem;
-    line-height: 2.2rem;
-    text-transform: uppercase;
-}
-
-.actions-box {
-    padding: 0 6rem 0;
-}
 
 .module-title {
     display: inline-block;
