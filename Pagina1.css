@@ -69,12 +69,12 @@ body {
 }
 
 .text-box > * {
-    flex: 1;
+    flex: auto;
+    padding: 6rem;
 }
 
 .main-content {
     flex-grow: 1;
-    padding: 6rem;
 }
 
 .box-aside {
@@ -82,7 +82,6 @@ body {
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 6rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,74 +137,57 @@ body {
     text-transform: uppercase;
 }
 
-/* .gradient::before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to right, #B101D6, #FF297D, #FE663E);
-    mix-blend-mode: screen;
-    position: absolute;
-    top: 0;
-    left: 0;
-} */
+.actions-box {
+    padding: 0 6rem 0;
+}
 
-
-.subtitle-2 {
-    width: 17%;
-    margin: 2em;
+.module-title {
+    display: inline-block;
+    position: relative;
+    padding: .25rem 2rem;
     border: solid 1px black;
-    border-radius: 20px;
+    border-radius: 2rem;
+    font-size: 2.5rem;
     text-align: center;
     text-transform: uppercase;
 }
 
-
-.number-subtitle {
+.module-number {
+    display: inline-block;
     position: absolute;
-    border: 2px solid;
+    top: 0;
+    right: -3.5rem;
+    padding: .25rem 1.5rem;
     border-radius: 50%;
-    background: linear-gradient(to right, #2198E5, #3173EA, #336FEB);
+    background: linear-gradient(to right, #1BA2E2, #3763ED);
     color: white;
-    margin-left: 272px;
-    width: 50px;
-    text-align: center;
-    margin-top: 0;
 }
 
 .buttons-box {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 0 16rem;
+    margin-bottom: 6rem;
 }
 
-.buttons-2,
-.buttons-1 {
-    flex-grow: 2;
-    margin: 50px 100px;
-    padding-left: 129px;
-}
-
-.gradient-1,
-.gradient-2,
-.gradient-3 {
+.buttons-box button {
+    padding: 2rem;
+    border: none;
+    border-radius: 1.5rem;
     color: white;
-    width: 170px;
-    height: 170px;
-    border-radius: 15px;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 .gradient-1 {
-    background: linear-gradient(to right, #AB01DB, #B501D5, #BB01D1);
-    margin-left: 50px;
+    background: linear-gradient(135deg, #AB01DB, #B501D5, #BB01D1);
 }
 
 .gradient-2 {
-    background: linear-gradient(to right, #BB01D1, #DF01B8, #F601A8);
-    margin: 0 157px;
+    background: linear-gradient(135deg, #BB01D1, #DF01B8, #F601A8);
 }
 
 .gradient-3 {
-    background: linear-gradient(to right, #F601A8, #FF1094, #FE1392);
-    margin-right: 50px;
+    background: linear-gradient(135deg, #F601A8, #FF1094, #FE1392);
 }
