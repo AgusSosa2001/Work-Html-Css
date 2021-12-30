@@ -1,0 +1,72 @@
+
+
+/* Estilos generales*/
+
+@font-face {
+    font-family: "Brandon Grotesque";
+    src: url(./assets/fonts/Brandon_reg.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Brandon Grotesque";
+    src: url(./assets/fonts/Brandon_med.otf);
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: "Brandon Grotesque";
+    src: url(./assets/fonts/Brandon_bld.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Brandon Grotesque";
+    src: url(./assets/fonts/brandon-grotesque-regular-italic.otf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Brandon Grotesque";
+    src: url(./assets/fonts/brandon-grotesque-black.otf);
+    font-weight: bold;
+    font-style: black;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Brandon Grotesque";
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 100%;
+}
+
+.hero {
+    background-image: url(gimnasia_5.png);
+    background-size: 118%;
+    background-position: -10rem -12rem;
+    height: 470px;
+    padding-left: 4rem;
+}
+
+.main-title {
+    color: #ffffff;
+    font-size: 5rem;
+    font-weight: black;
+    line-height: 5rem;
+    text-transform: uppercase;
+}
