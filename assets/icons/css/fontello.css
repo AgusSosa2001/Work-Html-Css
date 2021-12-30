@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?69653090');
-  src: url('../font/fontello.eot?69653090#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?69653090') format('woff2'),
-       url('../font/fontello.woff?69653090') format('woff'),
-       url('../font/fontello.ttf?69653090') format('truetype'),
-       url('../font/fontello.svg?69653090#fontello') format('svg');
+  src: url('../font/fontello.eot?50409751');
+  src: url('../font/fontello.eot?50409751#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?50409751') format('woff2'),
+       url('../font/fontello.woff?50409751') format('woff'),
+       url('../font/fontello.ttf?50409751') format('truetype'),
+       url('../font/fontello.svg?50409751#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?69653090#fontello') format('svg');
+    src: url('../font/fontello.svg?50409751#fontello') format('svg');
   }
 }
 */
@@ -74,3 +74,22 @@
 .icon-training:before { content: '\e811'; } /* '' */
 .icon-yoga-2:before { content: '\e812'; } /* '' */
 .icon-yoga:before { content: '\e813'; } /* '' */
+.icon-running:before { content: '\e814'; } /* '' */
+.icon-bike-2:before { content: '\e815'; } /* '' */
+.icon-swimming:before { content: '\e816'; } /* '' */
+.icon-dance:before { content: '\e817'; } /* '' */
+.icon-football:before { content: '\e818'; } /* '' */
+.icon-meat:before { content: '\e819'; } /* '' */
+.icon-liquid:before { content: '\e81a'; } /* '' */
+.icon-eggs:before { content: '\e81b'; } /* '' */
+.icon-fish:before { content: '\e81c'; } /* '' */
+.icon-fruit:before { content: '\e81d'; } /* '' */
+.icon-bistaque:before { content: '\e81e'; } /* '' */
+.icon-old-man:before { content: '\e81f'; } /* '' */
+.icon-fiber:before { content: '\e820'; } /* '' */
+.icon-breakfast:before { content: '\e821'; } /* '' */
+.icon-doctor:before { content: '\e822'; } /* '' */
+.icon-recharge:before { content: '\e823'; } /* '' */
+.icon-x-ray:before { content: '\e824'; } /* '' */
+.icon-meal-balance:before { content: '\e825'; } /* '' */
+.icon-headache:before { content: '\e826'; } /* '' */
