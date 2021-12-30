@@ -56,7 +56,7 @@ body {
 }
 
 .hero {
-    background-image: url(gimnasia_5.png);
+    background-image: url(pareja_2.png);
     background-size: 118%;
     background-position: -10rem -12rem;
     height: 470px;
@@ -70,3 +70,11 @@ body {
     line-height: 5rem;
     text-transform: uppercase;
 }
+
+.paragraph {
+    font-size: 2rem;
+    line-height: 2.2rem;
+    color: #87868C;
+    font-weight: normal;
+  }
+  
