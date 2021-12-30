@@ -31,6 +31,11 @@
   font-family: "Brandon Grotesque";
 }
 
+body > iframe {
+  width: 100vw;
+  height: 100vh;
+}
+
 h1, h2, h3 {
   margin: 0;
   margin-bottom: 1em;
@@ -54,6 +59,12 @@ body {
 
 .mb-3 {
   margin-bottom: 3rem;
+}
+
+.text-black {
+  color: black !important;
+  background: none !important;
+  -webkit-text-fill-color: black!important;
 }
 
 .main-container {
@@ -90,6 +101,86 @@ body {
   padding: 6rem;
 }
 
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 3rem;
+  text-transform: uppercase;
+  background: rgb(0,130,203);
+  background: linear-gradient(90deg, rgba(28,162,226,1) 0%, rgba(55,99,237,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.paragraph {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  color: #87868C;
+  font-weight: normal;
+}
+
+.box-aside {
+  background-image: url(../assets/gota_1.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square-box {
+  width: 23rem;
+  height: 20rem;
+  padding: 2.5rem 1.8rem;
+  background: white;
+  border-radius: 3rem;
+  box-shadow: -7px 7px 13px rgba(0,0,0,.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.square-box .box-text {
+  margin: 0;
+  font-size: 2.1rem;
+  font-weight: bold;
+  line-height: 2.1rem;
+  color: #335BDA;
+}
+
+.video-box {
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  padding: 0;
+  border-radius: 2.5rem;
+}
+
+.video-box > a {
+  position: relative;
+  text-decoration: none;
+}
+
+.video-box > a:after {
+  content: "";
+  color: rgba(255,255,255,.5);
+  font-family: "fontello";
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.video-box > a > img {
+  display: block;
+  width: 100%;
+}
+
 .content-box > * {
   padding: 0 6rem;
   margin-bottom: 3rem;
@@ -115,61 +206,6 @@ body {
   display: block;
   width: 100%;
   border-radius: 4rem;
-}
-
-
-.box-aside {
-  background-image: url(../assets/gota_1.png);
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.title {
-  font-size: 3rem;
-  font-weight: bold;
-  line-height: 3rem;
-  text-transform: uppercase;
-  background: rgb(0,130,203);
-  background: linear-gradient(90deg, rgba(28,162,226,1) 0%, rgba(55,99,237,1) 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.paragraph {
-  font-size: 2rem;
-  line-height: 2.2rem;
-  color: #87868C;
-  font-weight: normal;
-}
-
-.second-box {
-  flex-grow: 1;
-}
-
-.square-box {
-  width: 23rem;
-  height: 20rem;
-  padding: 2.5rem 1.8rem;
-  background: white;
-  border-radius: 3rem;
-  box-shadow: -7px 7px 13px rgba(0,0,0,.15);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: center;
-}
-
-.square-box .box-text {
-  margin: 0;
-  font-size: 2.1rem;
-  font-weight: bold;
-  line-height: 2.1rem;
-  color: #335BDA;
 }
 
 .gradient {
