@@ -36,9 +36,24 @@ h1, h2, h3 {
   margin-bottom: 1em;
 }
 
+sub {
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1rem;
+}
+
 body {
   margin: 0;
   padding: 0;
+}
+
+.text-center {
+  display: block;
+  text-align: center;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
 }
 
 .main-container {
@@ -70,11 +85,38 @@ body {
 }
 
 .text-box > * {
-  flex: auto;
   flex: 1;
   flex-grow: 1;
   padding: 6rem;
 }
+
+.content-box > * {
+  padding: 0 6rem;
+  margin-bottom: 3rem;
+}
+
+.image-wide {
+  flex-direction: column;
+}
+
+.image-wide > * {
+  padding: 0 6rem;
+}
+
+.image-wide p, .image-wide h2, .image-wide h3 {
+  margin: 0;
+}
+
+.img-container {
+  margin-top: 3rem;
+}
+
+.img-container img {
+  display: block;
+  width: 100%;
+  border-radius: 4rem;
+}
+
 
 .box-aside {
   background-image: url(../assets/gota_1.png);
@@ -146,6 +188,12 @@ body {
   padding: 0 6rem 0;
 }
 
+.btn-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
 .rounded-button {
   position: relative;
   padding: .7rem 1.7rem;
@@ -173,15 +221,17 @@ body {
   background-color: #EFEFEF;
   text-align: center;
   padding: 3rem;
+  margin-bottom: 5rem;
 }
 
-.gray-block .content {
+.content.circles {
   justify-content: center;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.circle {
+.circles .circle {
   width: 220px;
   height: 220px;
   border-radius: 50%;
@@ -191,7 +241,13 @@ body {
   margin: 2rem;
 }
 
-.inner-circle {
+.circles .circle.small {
+  width: 180px;
+  height: 180px;
+  margin: 1.5rem;
+}
+
+.circles .circle .inner-circle {
   width: 160px;
   height: 160px;
   border-radius: 50%;
@@ -200,7 +256,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   box-shadow:
     -1px 1px 1px rgba(0,0,0,.01),
     -2px 2px 1px rgba(0,0,0,.01),
@@ -251,22 +306,131 @@ body {
     -48px 48px 1px rgba(0,0,0,.01),
     -49px 49px 1px rgba(0,0,0,.01),
     -50px 50px 1px rgba(0,0,0,.01);
-  }
+}
 
-.bg-gradient1, .bg-gradient1 i, .bg-gradient1 span {
+.circles .circle.small .inner-circle {
+  width: 120px;
+  height: 120px;
+}
+
+.token-circle {
+  display: flex;
+  width: 200px;
+  margin: 2rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.token-circle .circle .inner-circle {
+  background: radial-gradient(circle at center, #FFF, #F0F0F0);
+}
+
+.token-circle .token-point {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  margin: .5rem 0 1rem;
+}
+
+.token-circle .token-text {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #87868C;
+  margin: 0;
+}
+.token-text sub {
+  white-space: nowrap;
+}
+
+.bg-gradient-1, .bg-gradient-1 i, .bg-gradient-1 span {
   background: linear-gradient(to right, #8701F2, #B700D3, #B901D2);
 }
 
-.bg-gradient2, .bg-gradient2 i, .bg-gradient2 span {
+.bg-gradient-2, .bg-gradient-2 i, .bg-gradient-2 span {
   background: linear-gradient(to right, #C201CD, #E501B4, #F500A9);
 }
 
-.bg-gradient3, .bg-gradient3 i, .bg-gradient3 span {
+.bg-gradient-3, .bg-gradient-3 i, .bg-gradient-3 span {
   background: linear-gradient(to right, #F803A4, #FE2F75, #FF3172);
 }
 
-.bg-gradient4, .bg-gradient4 i, .bg-gradient4 span {
+.bg-gradient-4, .bg-gradient-4 i, .bg-gradient-4 span {
   background: linear-gradient(to right, #FE3570, #FE6341, #FF683C);
+}
+
+.bg-gradient-5, .bg-gradient-5 i {
+  background: linear-gradient(to right, #00BCE5, #1595E1);
+}
+.token-circle .circle.bg-gradient-5 .inner-circle {
+  border: 10px solid #476BFD;
+}
+.token-circle .token-point.border-color-5 {
+  border-color: #00BCE5;
+}
+
+.bg-gradient-6, .bg-gradient-6 i {
+  background: linear-gradient(to right, #237ADF, #3C58DD);
+}
+.token-circle .circle.bg-gradient-6 .inner-circle {
+  border: 10px solid #306DF1;
+}
+.token-circle .token-point.border-color-6 {
+  border-color: #237ADF;
+}
+
+.bg-gradient-7, .bg-gradient-7 i {
+  background: linear-gradient(to right, #5B4FE3, #8642EB);
+}
+.token-circle .circle.bg-gradient-7 .inner-circle {
+  border: 10px solid #583AFF;
+}
+.token-circle .token-point.border-color-7 {
+  border-color: #5B4FE3;
+}
+
+.bg-gradient-8, .bg-gradient-8 i {
+  background: linear-gradient(to right, #A439EF, #B82BB4);
+}
+.token-circle .circle.bg-gradient-8 .inner-circle {
+  border: 10px solid #C546C3;
+}
+.token-circle .token-point.border-color-8 {
+  border-color: #A439EF;
+}
+
+.bg-gradient-9, .bg-gradient-9 i {
+  background: linear-gradient(to right, #C32596, #D7175C);
+}
+.token-circle .circle.bg-gradient-9 .inner-circle {
+  border: 10px solid #ED3346;
+}
+.token-circle .token-point.border-color-9 {
+  border-color: #C32596;
+}
+
+.bg-gradient-10, .bg-gradient-10 i {
+  background: linear-gradient(to right, #E50D34, #ED4121);
+}
+.token-circle .circle.bg-gradient-10 .inner-circle {
+  border: 10px solid #EC7844;
+}
+.token-circle .token-point.border-color-10 {
+  border-color: #E50D34;
+}
+
+.bg-gradient-11, .bg-gradient-11 i {
+  background: linear-gradient(to right, #F46716, #FD9C05);
+}
+.token-circle .circle.bg-gradient-11 .inner-circle {
+  border: 10px solid #FF7425;
+}
+.token-circle .token-point.border-color-11 {
+  border-color: #F46716;
 }
 
 .inner-circle > i {
@@ -280,6 +444,25 @@ body {
 }
 
 .inner-circle > i, .inner-circle > span {
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.space {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.elipsis:after {
+  content: "...";
+  font-size: 6rem;
+  letter-spacing: .5rem;
+}
+
+.gradient.elipsis:after {
+  background: #7300FF;
+  background: linear-gradient(to right, #7300FF, #FF00A2, #FF7530);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
