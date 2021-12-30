@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url(./assets/fonts/Brandon_reg.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url(./assets/fonts/Brandon_med.otf);
+  font-weight: medium;
+}
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url(./assets/fonts/Brandon_bld.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url(./assets/fonts/brandon-grotesque-regular-italic.otf);
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url(./assets/fonts/brandon-grotesque-black.otf);
+  font-weight: bold;
+  font-style: black;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Brandon Grotesque";
+}
+
+h1, h2, h3 {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 100%;
+}
+
+.hero {
+  background-image: url(./assets/gimnasia_1.png);
+  background-size: 140%;
+  background-position: -20rem -12rem;
+  height: 470px;
+  padding: 3rem 40rem 0 6rem;
+}
+
+.main-title {
+  color: #032937;
+  font-size: 5rem;
+  font-weight: black;
+  line-height: 5rem;
+  text-transform: uppercase;
+}
+
+.text-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.text-box > * {
+  flex: auto;
+  flex: 1;
+  flex-grow: 1;
+  padding: 6rem;
+}
+
+.box-aside {
+  background-image: url(./assets/gota_1.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 3rem;
+  text-transform: uppercase;
+  background: rgb(0,130,203);
+  background: linear-gradient(90deg, rgba(28,162,226,1) 0%, rgba(55,99,237,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.paragraph {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  color: #87868C;
+  font-weight: normal;
+}
+
+.second-box {
+  flex-grow: 1;
+}
