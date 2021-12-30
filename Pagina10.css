@@ -400,6 +400,8 @@ h3.subtitle {
     justify-content: center;
     margin-bottom: 5rem;
   }
+
+  /* Boton */
   
   .rounded-button {
     position: relative;
@@ -424,5 +426,44 @@ h3.subtitle {
     border-radius: 2rem;
   }
 
+  /*"Footer"*/
+
   
+.gray-block {
+    width: 100%;
+    height: auto;
+    background-color: #EFEFEF;
+    text-align: center;
+    padding: 3rem;
+}
+
+.small-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-box {
+flex-grow: 1;
+padding: 2rem;
+}
+
+.flex-img {
+    flex-grow: 1;
+    padding: 2rem;
+}
+
+.proteinas-img {
+    width: 38rem;
+    height: auto;
+}
+
+.color-gray {
+    color: rgb(175, 175, 175);
+}
+
+
+
+
 
