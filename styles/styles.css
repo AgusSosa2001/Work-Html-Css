@@ -161,10 +161,10 @@ body {
 .rounded-button:after {
   content: "";
   position: absolute;
-  top: .25rem;
-  left: .3rem;
-  right: .3rem;
-  bottom: .25rem;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
   border: 1px solid white;
   border-radius: 2rem;
 }
