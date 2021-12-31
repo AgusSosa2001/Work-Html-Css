@@ -1,0 +1,52 @@
+.hero {
+    background-image: url(../assets/living-home.png);
+    background-size: 100%;
+    background-position: center -8rem;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.main-title {
+    color: #ffffff;
+    width: 100%;
+}
+
+.paragraph {
+    margin: 0;
+}
+
+.box-aside {
+    background-image: url(../assets/gota_7.png);
+    background-size: 80%;
+}
+
+.box-aside.alt-bg {
+    background-image: url(../assets/gota_8.png);
+}
+
+.square-box {
+    width: 30rem;
+    height: 28rem;
+}
+
+.square-box i {
+    font-size: 8rem;
+}
+
+.square-box i.icon-family {
+    background: #2081E0;
+    background: linear-gradient(to right, #2081E0, #624DE5);
+}
+
+.square-box i.icon-hobbies {
+    background: #DF1142;
+    background: linear-gradient(to right, #DF1142, #F57112);
+}
+
+.square-box i.icon-family, .square-box i.icon-hobbies {
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+    
