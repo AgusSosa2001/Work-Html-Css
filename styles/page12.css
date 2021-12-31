@@ -1,10 +1,22 @@
+.text-box {
+    padding-top: 4rem;
+}
+
+.image-wide .img-container {
+    flex: auto;
+    padding: 0;
+    margin: 0 6rem;
+    height: 40rem;
+    border-radius: 4rem;
+    overflow: hidden;
+}
 
 .gray-block {
     margin: 0;
 }
 
+
 .text-box > * {
-    padding: 0 3rem;
     flex: 1;
     flex-grow: 1;
     display: flex;
@@ -13,16 +25,16 @@
     align-items: flex-start;
 }
 
-.text-box .main-content {
-    padding: 3rem 6rem;
-}
-
-.leucina-css {
-    width: 75%;
+.gray-block .text-box > * {
+    padding: 0 3rem;
 }
 
 .text-box {
     text-align: left;
+}
+
+.text-box .main-content {
+    padding: 3rem 6rem;
 }
 
 .box-aside {
@@ -31,14 +43,4 @@
 
 .box-aside img {
     width: 100%;
-}
-
-.image-wide .img-container {
-    flex: auto;
-    padding: 0;
-    margin: 0 6rem;
-    margin-top: 5rem;
-    height: 40rem;
-    border-radius: 4rem;
-    overflow: hidden;
 }
