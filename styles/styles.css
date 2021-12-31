@@ -143,7 +143,7 @@ body {
 }
 
 .text-box > * {
-  /* flex: 1; */
+  flex: 1;
   flex-grow: 1;
   padding: 6rem;
 }
