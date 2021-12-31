@@ -1,0 +1,34 @@
+.text-box .main-content {
+    padding: 3rem 6rem;
+}
+
+.leucina-css {
+    width: 75%;
+}
+
+.gray-block {
+    margin: 0;
+}
+
+.text-box {
+text-align: left;
+}
+
+.box-aside {
+    background: none;
+}
+
+.box-aside img {
+    width: 100%;
+}
+
+.image-wide .img-container {
+    flex: auto;
+    padding: 0;
+    margin: 0 6rem;
+    margin-top: 5rem;
+    height: 40rem;
+    border-radius: 4rem;
+    overflow: hidden;
+}
+  
