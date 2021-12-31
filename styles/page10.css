@@ -1,0 +1,38 @@
+.hero {
+  background-image: url(../assets/farmacia.png);
+  background-size: 140%;
+  background-position: -20rem -12rem;
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+}
+
+.main-title-small {
+  color: #032937;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+}
+
+.gray-block {
+  margin: 0;
+}
+
+.text-box {
+  text-align: left;
+}
+
+.text-box > * {
+  padding: 5rem;
+}
+
+.box-aside {
+  background: none;
+}
+
+.box-aside img {
+  width: 100%;
+}
