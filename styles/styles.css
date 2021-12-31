@@ -326,7 +326,7 @@ body {
 }
 
 .content.circles.wide {
-  gap: 6rem;
+  column-gap: 6rem;
 }
 
 .circles .circle {
@@ -527,11 +527,23 @@ body {
 .bg-gradient-1 span {
   background: linear-gradient(to right, #8701f2, #b700d3, #b901d2);
 }
+.token-circle .circle.bg-gradient-1 .inner-circle {
+  border: 10px solid #8701f2;
+}
+.token-circle .token-point.border-color-1 {
+  border-color: #8701f2;
+}
 
 .bg-gradient-2,
 .bg-gradient-2 i,
 .bg-gradient-2 span {
   background: linear-gradient(to right, #c201cd, #e501b4, #f500a9);
+}
+.token-circle .circle.bg-gradient-1 .inner-circle {
+  border: 10px solid #c201cd;
+}
+.token-circle .token-point.border-color-1 {
+  border-color: #c201cd;
 }
 
 .bg-gradient-3,
@@ -539,11 +551,23 @@ body {
 .bg-gradient-3 span {
   background: linear-gradient(to right, #f803a4, #fe2f75, #ff3172);
 }
+.token-circle .circle.bg-gradient-3 .inner-circle {
+  border: 10px solid #f803a4;
+}
+.token-circle .token-point.border-color-3 {
+  border-color: #f803a4;
+}
 
 .bg-gradient-4,
 .bg-gradient-4 i,
 .bg-gradient-4 span {
   background: linear-gradient(to right, #fe3570, #fe6341, #ff683c);
+}
+.token-circle .circle.bg-gradient-4 .inner-circle {
+  border: 10px solid #fe3570;
+}
+.token-circle .token-point.border-color-4 {
+  border-color: #fe3570;
 }
 
 .bg-gradient-5,
