@@ -2,51 +2,57 @@
     font-family: "Brandon Grotesque";
     src: url(../assets/fonts/Brandon_reg.otf);
     font-weight: normal;
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: "Brandon Grotesque";
     src: url(../assets/fonts/Brandon_med.otf);
     font-weight: medium;
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: "Brandon Grotesque";
     src: url(../assets/fonts/Brandon_bld.otf);
     font-weight: bold;
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: "Brandon Grotesque";
     src: url(../assets/fonts/brandon-grotesque-regular-italic.otf);
     font-weight: bold;
     font-style: italic;
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: "Brandon Grotesque";
     src: url(../assets/fonts/brandon-grotesque-black.otf);
     font-weight: bold;
     font-style: black;
-  }
-  
-  * {
+}
+
+* {
     box-sizing: border-box;
     font-family: "Brandon Grotesque";
-  }
-  
-  h1, h2, h3 {
+}
+
+h1,
+h2,
+h3 {
     margin: 0;
     margin-bottom: 1em;
-  }
-  
-  sub {
+}
+
+sub {
     font-size: 1rem;
     font-style: italic;
     line-height: 1rem;
-  }
-  
-  body {
+}
+
+body {
     margin: 0;
     padding: 0;
-  }
-  
+}
+
 
 .subtitle {
     display: inline-block;
@@ -105,6 +111,14 @@ h3.sub {
     text-transform: uppercase;
 }
 
+h3.sub2 {
+    position: absolute;
+   margin:  0rem 0rem -7rem 10rem;
+}
+
+.margin-sub {
+    margin: 2rem;
+}
 
 .paragraph {
     font-size: 2rem;
@@ -112,9 +126,10 @@ h3.sub {
     color: #87868C;
     font-weight: normal;
     padding-left: 5rem;
-  }
+}
 
 .center-vegetables {
+    margin-top: 3rem;
     width: 49rem;
     height: 40rem;
     border-radius: 5rem;
@@ -173,16 +188,6 @@ h3.sub {
     background: linear-gradient(to right, #591F7A, #AB33D2, #B22EC2);
 }
 
-.color-border4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem;
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    background: linear-gradient(to right, #5F1045, #CF1D71, #D11869);
-}
 
 .color-border6 {
     display: flex;
@@ -297,7 +302,7 @@ h3.sub {
 
 .gray-block {
     width: 100%;
-    height: 47rem;
+    height: auto;
     background-color: #EFEFEF;
     text-align: center;
     padding: 3rem;
@@ -306,7 +311,7 @@ h3.sub {
 .gray-block .content {
     justify-content: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .equal-food {
@@ -325,8 +330,8 @@ h3.sub {
 }
 
 .flex-box {
-flex-grow: 1;
-padding: 2rem;
+    flex-grow: 1;
+    padding: 2rem;
 }
 
 .flex-img {
@@ -341,4 +346,32 @@ padding: 2rem;
 
 .color-gray {
     color: rgb(175, 175, 175);
+}
+
+.space {
+    display: flex;
+    flex-direction: column;
+}
+
+.align-text {
+    text-align: center;
+    margin: 2rem;
+    font-size: 100px;
+    display: inline-block;
+    color: #000;
+    background: #fff;
+    mix-blend-mode: multiply;
+    position: relative;
+}
+
+.align-text::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #E200B5, #FE297B, #FE6340);
+    mix-blend-mode: screen;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
