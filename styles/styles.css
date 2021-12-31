@@ -89,6 +89,12 @@ body {
   text-transform: uppercase;
 }
 
+.subtitle {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  color: #032937;
+}
+
 .text-box {
   width: 100%;
   display: flex;
