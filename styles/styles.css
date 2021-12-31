@@ -54,23 +54,58 @@ body {
   padding: 0;
 }
 
+.text-left {
+  display: block !important;
+  text-align: left !important;
+}
+
 .text-center {
-  display: block;
-  text-align: center;
+  display: block !important;
+  text-align: center !important;
+}
+
+.uppercase {
+  text-transform: uppercase !important;
+}
+
+.m-0 {
+  margin: 0 !important;
 }
 
 .mb-1 {
-  margin-bottom: 1rem;
+  margin-bottom: 1rem !important;
 }
 
 .mb-3 {
-  margin-bottom: 3rem;
+  margin-bottom: 3rem !important;
+}
+
+.px-6 {
+  padding-left: 6rem !important;
+  padding-right: 6rem !important;
+}
+
+.py-3 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
 }
 
 .text-black {
   color: black !important;
   background: none !important;
   -webkit-text-fill-color: black !important;
+}
+
+.icon-fish:before,
+.icon-eggs:before {
+  width: 5rem !important;
+  overflow: visible;
+}
+.icon-fish:before {
+  font-size: 3rem;
+}
+.icon-eggs:before {
+  font-size: 2.5rem;
 }
 
 .main-container {
@@ -108,7 +143,7 @@ body {
 }
 
 .text-box > * {
-  flex: 1;
+  /* flex: 1; */
   flex-grow: 1;
   padding: 6rem;
 }
@@ -290,6 +325,10 @@ body {
   flex-wrap: wrap;
 }
 
+.content.circles.wide {
+  gap: 6rem;
+}
+
 .circles .circle {
   width: 220px;
   height: 220px;
@@ -448,6 +487,12 @@ body {
   align-items: center;
 }
 
+.token-circle.horizontal {
+  width: 21rem;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
 .token-circle .circle .inner-circle {
   background: radial-gradient(circle at center, #fff, #f0f0f0);
 }
@@ -468,6 +513,10 @@ body {
   text-align: center;
   color: #87868c;
   margin: 0;
+}
+.token-circle.horizontal .token-text {
+  width: 6rem;
+  text-align: left;
 }
 .token-text sub {
   white-space: nowrap;
