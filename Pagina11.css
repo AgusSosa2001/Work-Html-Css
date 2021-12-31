@@ -314,6 +314,18 @@ h3.sub2 {
     flex-direction: column;
 }
 
+.leucina-css {
+    width: 60rem;
+    padding-left: 2rem;
+  
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .small-box {
     display: flex;
     flex-direction: row;
