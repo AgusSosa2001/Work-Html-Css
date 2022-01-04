@@ -714,5 +714,10 @@ footer.text-box .slogan {
 
   .box-aside {
     background-size: 59.5%;
+    
+  }
+
+  .text-box > * {
+    padding-bottom: 1rem;
   }
 }

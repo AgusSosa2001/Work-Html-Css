@@ -32,3 +32,15 @@
     display: block;
     width: 100%;
 }
+
+@media screen and (max-width: 1050px){
+
+    .box-aside img {
+        width: 80%;
+        margin-bottom: 2.5rem;
+        padding-top: 0rem;
+    }
+
+
+}
+
