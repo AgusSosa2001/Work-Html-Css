@@ -70,3 +70,12 @@
 .gradient-3 {
     background: linear-gradient(135deg, #F601A8, #FF1094, #FE1392);
 }
+
+@media screen and (max-width: 1050px){
+
+    .buttons-box {
+       display: flex;
+       flex-direction: column;
+
+    }
+}
