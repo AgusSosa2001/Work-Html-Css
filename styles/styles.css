@@ -754,4 +754,8 @@ footer.text-box .slogan {
   .circles .circle {
     margin: 0 0 4rem 7rem;
   }
+
+  .btn-box {
+    margin: 3rem
+  }
 }

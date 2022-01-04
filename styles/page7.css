@@ -6,3 +6,9 @@
 .box-aside.alt-bg {
     background-image: url(../assets/gota_8.png);
 }
+
+@media screen and (max-width: 1050px) {
+    .box-aside {
+        background-size: 75%;
+    }
+}
