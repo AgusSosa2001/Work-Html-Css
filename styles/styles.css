@@ -3,22 +3,26 @@
   src: url(../assets/fonts/Brandon_reg.otf);
   font-weight: normal;
 }
+
 @font-face {
   font-family: "Brandon Grotesque";
   src: url(../assets/fonts/Brandon_med.otf);
   font-weight: medium;
 }
+
 @font-face {
   font-family: "Brandon Grotesque";
   src: url(../assets/fonts/Brandon_bld.otf);
   font-weight: bold;
 }
+
 @font-face {
   font-family: "Brandon Grotesque";
   src: url(../assets/fonts/brandon-grotesque-regular-italic.otf);
   font-weight: bold;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Brandon Grotesque";
   src: url(../assets/fonts/brandon-grotesque-black.otf);
@@ -31,7 +35,7 @@
   font-family: "Brandon Grotesque";
 }
 
-body > iframe {
+body>iframe {
   width: 100vw;
   height: 100vh;
 }
@@ -101,9 +105,11 @@ body {
   width: 5rem !important;
   overflow: visible;
 }
+
 .icon-fish:before {
   font-size: 3rem;
 }
+
 .icon-eggs:before {
   font-size: 2.5rem;
 }
@@ -142,7 +148,7 @@ body {
   flex-direction: row;
 }
 
-.text-box > * {
+.text-box>* {
   flex: 1;
   flex-grow: 1;
   padding: 6rem;
@@ -154,11 +160,9 @@ body {
   line-height: 3rem;
   text-transform: uppercase;
   background: rgb(0, 130, 203);
-  background: linear-gradient(
-    90deg,
-    rgba(28, 162, 226, 1) 0%,
-    rgba(55, 99, 237, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(28, 162, 226, 1) 0%,
+      rgba(55, 99, 237, 1) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -210,12 +214,12 @@ body {
   border-radius: 2.5rem;
 }
 
-.video-box > a {
+.video-box>a {
   position: relative;
   text-decoration: none;
 }
 
-.video-box > a:after {
+.video-box>a:after {
   content: "";
   color: rgba(255, 255, 255, 0.5);
   font-family: "fontello";
@@ -227,12 +231,13 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.video-box > a > img {
+
+.video-box>a>img {
   display: block;
   width: 100%;
 }
 
-.content-box > * {
+.content-box>* {
   padding: 0 6rem;
   margin-bottom: 3rem;
 }
@@ -241,7 +246,7 @@ body {
   flex-direction: column;
 }
 
-.image-wide > * {
+.image-wide>* {
   padding: 0 6rem;
 }
 
@@ -264,11 +269,9 @@ body {
 .gradient {
   margin: 0;
   background: rgb(0, 130, 203);
-  background: linear-gradient(
-    90deg,
-    rgba(115, 38, 254, 1) 0%,
-    rgba(255, 106, 57, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(115, 38, 254, 1) 0%,
+      rgba(255, 106, 57, 1) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -514,10 +517,12 @@ body {
   color: #87868c;
   margin: 0;
 }
+
 .token-circle.horizontal .token-text {
   width: 6rem;
   text-align: left;
 }
+
 .token-text sub {
   white-space: nowrap;
 }
@@ -527,9 +532,11 @@ body {
 .bg-gradient-1 span {
   background: linear-gradient(to right, #8701f2, #b700d3, #b901d2);
 }
+
 .token-circle .circle.bg-gradient-1 .inner-circle {
   border: 10px solid #8701f2;
 }
+
 .token-circle .token-point.border-color-1 {
   border-color: #8701f2;
 }
@@ -539,9 +546,11 @@ body {
 .bg-gradient-2 span {
   background: linear-gradient(to right, #c201cd, #e501b4, #f500a9);
 }
+
 .token-circle .circle.bg-gradient-1 .inner-circle {
   border: 10px solid #c201cd;
 }
+
 .token-circle .token-point.border-color-1 {
   border-color: #c201cd;
 }
@@ -551,9 +560,11 @@ body {
 .bg-gradient-3 span {
   background: linear-gradient(to right, #f803a4, #fe2f75, #ff3172);
 }
+
 .token-circle .circle.bg-gradient-3 .inner-circle {
   border: 10px solid #f803a4;
 }
+
 .token-circle .token-point.border-color-3 {
   border-color: #f803a4;
 }
@@ -563,9 +574,11 @@ body {
 .bg-gradient-4 span {
   background: linear-gradient(to right, #fe3570, #fe6341, #ff683c);
 }
+
 .token-circle .circle.bg-gradient-4 .inner-circle {
   border: 10px solid #fe3570;
 }
+
 .token-circle .token-point.border-color-4 {
   border-color: #fe3570;
 }
@@ -574,9 +587,11 @@ body {
 .bg-gradient-5 i {
   background: linear-gradient(to right, #00bce5, #1595e1);
 }
+
 .token-circle .circle.bg-gradient-5 .inner-circle {
   border: 10px solid #476bfd;
 }
+
 .token-circle .token-point.border-color-5 {
   border-color: #00bce5;
 }
@@ -585,9 +600,11 @@ body {
 .bg-gradient-6 i {
   background: linear-gradient(to right, #237adf, #3c58dd);
 }
+
 .token-circle .circle.bg-gradient-6 .inner-circle {
   border: 10px solid #306df1;
 }
+
 .token-circle .token-point.border-color-6 {
   border-color: #237adf;
 }
@@ -596,9 +613,11 @@ body {
 .bg-gradient-7 i {
   background: linear-gradient(to right, #5b4fe3, #8642eb);
 }
+
 .token-circle .circle.bg-gradient-7 .inner-circle {
   border: 10px solid #583aff;
 }
+
 .token-circle .token-point.border-color-7 {
   border-color: #5b4fe3;
 }
@@ -607,9 +626,11 @@ body {
 .bg-gradient-8 i {
   background: linear-gradient(to right, #a439ef, #b82bb4);
 }
+
 .token-circle .circle.bg-gradient-8 .inner-circle {
   border: 10px solid #c546c3;
 }
+
 .token-circle .token-point.border-color-8 {
   border-color: #a439ef;
 }
@@ -618,9 +639,11 @@ body {
 .bg-gradient-9 i {
   background: linear-gradient(to right, #c32596, #d7175c);
 }
+
 .token-circle .circle.bg-gradient-9 .inner-circle {
   border: 10px solid #ed3346;
 }
+
 .token-circle .token-point.border-color-9 {
   border-color: #c32596;
 }
@@ -629,9 +652,11 @@ body {
 .bg-gradient-10 i {
   background: linear-gradient(to right, #e50d34, #ed4121);
 }
+
 .token-circle .circle.bg-gradient-10 .inner-circle {
   border: 10px solid #ec7844;
 }
+
 .token-circle .token-point.border-color-10 {
   border-color: #e50d34;
 }
@@ -640,25 +665,27 @@ body {
 .bg-gradient-11 i {
   background: linear-gradient(to right, #f46716, #fd9c05);
 }
+
 .token-circle .circle.bg-gradient-11 .inner-circle {
   border: 10px solid #ff7425;
 }
+
 .token-circle .token-point.border-color-11 {
   border-color: #f46716;
 }
 
-.inner-circle > i {
+.inner-circle>i {
   font-size: 4rem;
 }
 
-.inner-circle > span {
+.inner-circle>span {
   font-size: 1.5rem;
   position: relative;
   top: -1rem;
 }
 
-.inner-circle > i,
-.inner-circle > span {
+.inner-circle>i,
+.inner-circle>span {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -687,19 +714,22 @@ footer.text-box {
   padding: 0;
   margin: 0;
 }
-footer.text-box .logo > img {
+
+footer.text-box .logo>img {
   display: block;
   width: 100%;
 }
+
 footer.text-box .slogan {
   text-align: left;
 }
 
-@media screen and (max-width: 1050px){
- 
-  .text-box, .content.circles, .token-circle.horizontal {
+@media screen and (max-width: 1050px) {
+
+  .text-box,
+  .token-circle.horizontal {
     flex-direction: column;
-  } 
+  }
 
   .hero {
     background-repeat: no-repeat;
@@ -713,11 +743,15 @@ footer.text-box .slogan {
   }
 
   .box-aside {
-    background-size: 59.5%;
-    
+    background-size: 50%;
+
   }
 
-  .text-box > * {
+  .text-box>* {
     padding-bottom: 1rem;
+  }
+
+  .circles .circle {
+    margin: 0 0 4rem 7rem;
   }
 }
