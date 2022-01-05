@@ -731,8 +731,24 @@ footer.text-box .slogan {
     flex-direction: column;
   }
 
+  .main-title {
+    font-size: 2rem;
+    width: min-content;
+    display: flex;
+    line-height: initial;
+  }
+
+  .square-box {
+    width: 44rem;
+    height: 30rem;
+  }
+
   .hero {
     background-repeat: no-repeat;
+    height: 13rem;
+    background-position: -7rem 0rem;
+    padding: 0rem;
+    background-size: 130%;
   }
 
   .actions-box {
@@ -743,12 +759,13 @@ footer.text-box .slogan {
   }
 
   .box-aside {
-    background-size: 50%;
+    background-size: 60%;
 
   }
 
   .text-box>* {
     padding-bottom: 1rem;
+    padding: 2rem;
   }
 
   .circles .circle {
