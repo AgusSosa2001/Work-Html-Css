@@ -57,4 +57,20 @@
     }
 
 }
+
+@media screen and (max-width: 360px) {
+    
+    .hero {
+        background-repeat: no-repeat;
+        height: 13rem;
+        background-position: -7rem 0rem;
+        padding: 0rem;
+        background-size: 130%;
+    }
+
+    .square-box {
+        width: auto;
+        height: auto;
+    }
+}
     
