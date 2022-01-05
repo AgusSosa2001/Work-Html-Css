@@ -33,7 +33,7 @@
     width: 100%;
 }
 
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1050px) {
 
     .box-aside img {
         width: 80%;
@@ -41,6 +41,17 @@
         padding-top: 0rem;
     }
 
+    .hero {
+        background-repeat: no-repeat;
+        height: 13rem;
+        background-position: -7rem 0rem;
+        padding: 0rem;
+        background-size: 130%;
+    }
+
+    .rounded-button {
+        text-align: center;
+    }
+
 
 }
-

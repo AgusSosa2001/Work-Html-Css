@@ -738,6 +738,10 @@ footer.text-box .slogan {
     line-height: initial;
   }
 
+  .title {
+    font-size: 2rem;
+  }
+
   .square-box {
     width: 44rem;
     height: 30rem;
