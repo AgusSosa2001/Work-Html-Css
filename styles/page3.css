@@ -57,3 +57,12 @@ a.gradient:after {
     
 }
 
+@media screen and (max-width: 360px){
+
+    .hero{
+        background-position: inherit;
+    }
+}
+    
+
+

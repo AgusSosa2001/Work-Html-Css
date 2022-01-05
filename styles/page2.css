@@ -41,6 +41,10 @@
         padding-top: 0rem;
     }
 
+}
+
+@media screen and (max-width: 360px) {
+
     .hero {
         background-repeat: no-repeat;
         height: 13rem;
@@ -48,10 +52,4 @@
         padding: 0rem;
         background-size: 130%;
     }
-
-    .rounded-button {
-        text-align: center;
-    }
-
-
 }
