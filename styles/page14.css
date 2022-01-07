@@ -53,3 +53,17 @@
     width: 60%;
     margin: auto;
 }
+
+
+@media screen and (max-width: 360px) {
+
+    .gray-block {
+        padding: 1.5rem 2rem;
+    }
+
+    .gray-block .subtitle {
+        font-size: 1.5rem;
+    }
+    
+}
+

@@ -44,3 +44,12 @@
 .box-aside img {
     width: 100%;
 }
+
+@media screen and (max-width: 360px) {
+    .image-wide .img-container {
+        margin: 0 2rem;
+        margin-top: 1rem;
+        flex: 0%;
+        height: 25rem;
+    }
+}
