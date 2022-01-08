@@ -1,0 +1,26 @@
+.hero {
+    background-image: url(../assets/gimnasia_3.png);
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.main-title {
+    text-align: right;
+}
+
+.title {
+    margin: 0;
+}
+
+.box-aside {
+    background: none;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.box-aside img {
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+}

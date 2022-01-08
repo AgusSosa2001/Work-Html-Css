@@ -1,0 +1,20 @@
+.box-aside {
+    background-image: url(../assets/gota_2.png);
+    background-size: 80%;
+}
+.box-aside.alt-bg {
+    background-image: url(../assets/gota_4.png)
+}
+
+@media screen and (max-width: 1050px) {
+    .box-aside {
+        background-size: 75%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .square-box {
+        width: auto;
+        height: auto;
+    }
+}

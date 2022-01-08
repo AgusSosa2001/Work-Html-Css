@@ -1,0 +1,68 @@
+.hero {
+    background-image: url(../assets/gimnasia_2.png);
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.main-title {
+    text-align: right;
+}
+
+.box-aside {
+    background-image: url(../assets/gota_3.png);
+    background-size: 80%;
+}
+
+.square-box {
+    justify-content: center;
+    padding: 2.5rem;
+}
+
+.square-box .gradient {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 4rem;
+    text-transform: uppercase;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+
+a.gradient {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    margin-top: 0;
+}
+
+a.gradient:after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: rgba(115,38,254,1);
+    background: linear-gradient(90deg, rgba(115,38,254,1) 0%, rgba(255,106,57,1) 100%);
+}
+
+@media screen and (max-width: 1050px){
+
+    .box-aside {
+        background-size: 45%;
+    }
+
+    
+}
+
+@media screen and (max-width: 360px){
+
+    .hero{
+        background-position: inherit;
+    }
+}
+    
+
+

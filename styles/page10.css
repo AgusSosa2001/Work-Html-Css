@@ -1,0 +1,62 @@
+.hero {
+  background-image: url(../assets/farmacia.png);
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+}
+
+.main-title-small {
+  color: #032937;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+}
+
+.gray-block {
+  margin: 0;
+}
+
+.text-box {
+  text-align: left;
+}
+
+.text-box > * {
+  padding: 5rem;
+}
+
+.box-aside {
+  background: none;
+}
+
+.box-aside img {
+  width: 100%;
+}
+
+@media screen and (max-width: 360px){
+  .hero {
+    background-repeat: no-repeat;
+    height: 13rem;
+    background-position: -7rem 0rem;
+    padding: 0rem;
+    background-size: 130%;
+  } 
+
+  .main-title-small {
+    font-size: 1.2rem;
+  }
+
+  .text-box > * {
+    padding: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+}
