@@ -1,7 +1,5 @@
 .hero {
     background-image: url(../assets/gimnasia_3.png);
-    background-size: 100%;
-    background-position: center;
     display: flex;
     justify-content: end;
     align-items: flex-end;
@@ -15,20 +13,14 @@
     margin: 0;
 }
 
-.paragraph {
-    font-size: 1.7rem;
-    line-height: 1.9rem;
-    color: #87868C;
-    font-weight: lighter;
-}
-
 .box-aside {
     background: none;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
 }
 
 .box-aside img {
     display: block;
     width: 100%;
+    margin-bottom: 2rem;
 }
