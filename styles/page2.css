@@ -1,7 +1,5 @@
 .hero {
     background-image: url(../assets/gimnasia_3.png);
-    background-size: 100%;
-    background-position: center;
     display: flex;
     justify-content: end;
     align-items: flex-end;
@@ -15,41 +13,14 @@
     margin: 0;
 }
 
-.paragraph {
-    font-size: 1.7rem;
-    line-height: 1.9rem;
-    color: #87868C;
-    font-weight: lighter;
-}
-
 .box-aside {
     background: none;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
 }
 
 .box-aside img {
     display: block;
     width: 100%;
-}
-
-@media screen and (max-width: 1050px) {
-
-    .box-aside img {
-        width: 80%;
-        margin-bottom: 2.5rem;
-        padding-top: 0rem;
-    }
-
-}
-
-@media screen and (max-width: 360px) {
-
-    .hero {
-        background-repeat: no-repeat;
-        height: 13rem;
-        background-position: -7rem 0rem;
-        padding: 0rem;
-        background-size: 130%;
-    }
+    margin-bottom: 2rem;
 }

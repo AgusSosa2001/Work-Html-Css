@@ -36,8 +36,9 @@
 .buttons-box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    width: 60%;
+    margin: auto;
     gap: 1.5rem;
-    padding: 0 16rem;
     margin-bottom: 6rem;
 }
 
@@ -71,10 +72,35 @@
     background: linear-gradient(135deg, #F601A8, #FF1094, #FE1392);
 }
 
-@media screen and (max-width: 1050px){
-
+@media screen and (max-width: 1200px){
     .buttons-box {
+        width: 80%;
+    }
+    .buttons-box > * {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .buttons-box {
+        width: 80%;
         grid-template-columns: 1fr 1fr;
-        padding: 3rem;
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .buttons-box {
+        width: 60%;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .buttons-box {
+        width: 80%;
+        grid-template-columns: 1fr;
+        padding: 0;
     }
 }

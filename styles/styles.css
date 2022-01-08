@@ -120,8 +120,9 @@ body {
 
 .hero {
   background-image: url(../assets/gimnasia_1.png);
-  background-size: 140%;
-  background-position: -20rem -12rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 470px;
   padding: 6rem;
 }
@@ -707,23 +708,20 @@ footer.text-box .slogan {
 
 @media screen and (max-width: 1050px) {
   .hero {
-    background: no-repeat;
+    height: auto;
+    padding: 4rem;
   }
-
+  
   .text-box,
   .token-circle.horizontal {
     flex-direction: column;
   }
 
   .main-title {
-    font-size: 2rem;
+    font-size: 4rem;
     width: min-content;
     display: flex;
     line-height: initial;
-  }
-
-  .square-box {
-    height: 12rem;
   }
 
   .actions-box {
@@ -733,18 +731,14 @@ footer.text-box .slogan {
     margin-top: 1.5rem;
   }
 
-  .box-aside {
-    background-size: 60%;
-
-  }
-
   .text-box>* {
     padding-bottom: 1rem;
-    padding: 2rem;
+    padding: 4rem;
   }
-
-  .circles .circle {
-    margin: 0 0 4rem 7rem;
+  
+  .box-aside {
+    background-size: 60%;
+    padding: 6rem 4rem;
   }
 
   .btn-box {
@@ -752,21 +746,25 @@ footer.text-box .slogan {
   }
 }
 
-@media screen and (max-width: 360px) {
-  .hero {
-    height: 13rem;
-    background-position: -7rem 0rem;
-    padding: 0rem;
-    background-size: 130%;
+@media screen and (max-width: 780px) {
+  .main-title {
+    font-size: 3rem;
   }
 
   .title {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
-  .square-box {
-    width: 44rem;
-    height: 30rem;
+  .paragraph {
+    font-size: 1.8rem;
+  }
+
+  .square-box .box-text {
+    font-size: 1.8rem;
+  }
+
+  .gradient {
+    font-size: 2rem;
   }
 
   .gray-block {
@@ -774,10 +772,6 @@ footer.text-box .slogan {
     flex-direction: column;
     align-items: center;
     justify-content: end;
-  }
-
-  .circles .circle {
-    margin: 2rem 0rem;
   }
 
   .rounded-button {

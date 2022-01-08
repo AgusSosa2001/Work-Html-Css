@@ -1,7 +1,6 @@
 .hero {
     background-image: url(../assets/living-home.png);
-    background-size: 100%;
-    background-position: center -8rem;
+    background-position: center -5rem;
     display: flex;
     justify-content: start;
     align-items: flex-end;
