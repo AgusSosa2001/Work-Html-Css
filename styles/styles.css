@@ -324,6 +324,10 @@ body {
   margin: 2rem;
 }
 
+.circles a {
+  text-decoration: none;
+}
+
 .circles .circle.small {
   width: 180px;
   height: 180px;
