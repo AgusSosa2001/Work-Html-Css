@@ -242,6 +242,14 @@ body {
   color: #032937;
 }
 
+.subtitle > sub {
+  vertical-align: baseline;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: 400;
+  color: #87868c
+}
+
 .text-box {
   width: 100%;
   display: flex;
@@ -252,6 +260,15 @@ body {
   flex: 1;
   flex-grow: 1;
   padding: 6rem;
+}
+
+.text-box > .main-content sub {
+  display: block;
+  color: #87868c;
+}
+
+.text-box > .main-content img {
+  width: 100%;
 }
 
 .title {
@@ -283,6 +300,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.box-aside.drop-background {
+  background-image: url(../assets/background-gota.png) !important;
+  padding: 0;
+}
+
+.box-aside.drop-background > img {
+  margin-left: 8rem;
+  margin-top: 3rem;
+  width: 80%;
 }
 
 .square-box {
@@ -1001,7 +1029,7 @@ footer.text-box .slogan {
     padding-bottom: 1rem;
     padding: 4rem;
   }
-  
+
   .box-aside {
     background-size: 60%;
     padding: 6rem 4rem;
