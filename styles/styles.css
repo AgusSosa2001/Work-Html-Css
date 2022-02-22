@@ -92,6 +92,10 @@ body {
   align-items: center !important;
 }
 
+.w-60 {
+  width: 60% !important;
+}
+
 .py-0 {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -336,6 +340,14 @@ body {
 .card.wide > .card-content p {
   margin: 0;
   font-size: 1.5rem;
+  color: #808085;
+}
+
+.card.wide > .card-content ul {
+  margin: 0;
+  padding-left: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
   color: #808085;
 }
 
@@ -863,8 +875,10 @@ a.gradient.small,
 }
 
 .bg-gradient-9,
-.bg-gradient-9 i {
-  background: linear-gradient(to right, #c32596, #d7175c);
+.bg-gradient-9 i,
+.bg-gradient-9 span,
+.text-gradient-9 {
+  background-image: linear-gradient(to right, #c32596, #d7175c);
 }
 
 .token-circle .circle.bg-gradient-9 .inner-circle {
@@ -877,8 +891,10 @@ a.gradient.small,
 }
 
 .bg-gradient-10,
-.bg-gradient-10 i {
-  background: linear-gradient(to right, #e50d34, #ed4121);
+.bg-gradient-10 i,
+.bg-gradient-10 span,
+.text-gradient-10 {
+  background-image: linear-gradient(to right, #e50d34, #ed4121);
 }
 
 .token-circle .circle.bg-gradient-10 .inner-circle {
@@ -891,8 +907,10 @@ a.gradient.small,
 }
 
 .bg-gradient-11,
-.bg-gradient-11 i {
-  background: linear-gradient(to right, #f46716, #fd9c05);
+.bg-gradient-11 i,
+.bg-gradient-11 span,
+.text-gradient-11 {
+  background-image: linear-gradient(to right, #f46716, #fd9c05);
 }
 
 .token-circle .circle.bg-gradient-11 .inner-circle {
