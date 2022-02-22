@@ -3,6 +3,7 @@
 }
 
 .box-aside.drop-background > img {
+  width: 60%;
   margin-top: 6rem;
 }
 
@@ -10,6 +11,7 @@ dl.arrow-list {
   margin: 0;
   padding-top: 0;
   padding-bottom: 0;
+  padding-right: 0;
   margin-left: 4rem;
 }
 
