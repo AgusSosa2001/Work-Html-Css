@@ -1,0 +1,25 @@
+.text-box > * {
+  align-items: start;
+}
+
+.text-box > sub {
+  padding-top: 0;
+  color: #808085;
+}
+
+.box-aside.drop-background > img {
+  width: 60%;
+  margin-top: 6rem;
+}
+
+dl.arrow-list dd {
+  display: flex;
+  align-items: center;
+  line-height: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+dl.arrow-list dd i {
+  font-size: 3rem;
+  margin-right: 1rem;
+}

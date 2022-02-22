@@ -1,32 +1,32 @@
 @font-face {
   font-family: "Brandon Grotesque";
   src: url(../assets/fonts/Brandon_reg.otf);
-  font-weight: normal;
+  font-weight: 400;
 }
 
 @font-face {
   font-family: "Brandon Grotesque";
   src: url(../assets/fonts/Brandon_med.otf);
-  font-weight: medium;
+  font-weight: 500;
 }
 
 @font-face {
   font-family: "Brandon Grotesque";
   src: url(../assets/fonts/Brandon_bld.otf);
-  font-weight: bold;
+  font-weight: 600;
 }
 
 @font-face {
   font-family: "Brandon Grotesque";
   src: url(../assets/fonts/brandon-grotesque-regular-italic.otf);
-  font-weight: bold;
+  font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Brandon Grotesque";
   src: url(../assets/fonts/brandon-grotesque-black.otf);
-  font-weight: bold;
+  font-weight: 700;
   font-style: black;
 }
 
@@ -72,12 +72,61 @@ body {
   text-transform: uppercase !important;
 }
 
+.normal {
+  text-transform: none !important;
+}
+
+.justify-around {
+  justify-content: space-around !important;
+}
+
+.justify-between {
+  justify-content: space-between !important;
+}
+
+.flex-align-start {
+  align-items: flex-start !important;
+}
+
+.flex-align-center {
+  align-items: center !important;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+
+.py-0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.gap-2 {
+  gap: 2rem !important;
+}
+
+.gap-3 {
+  gap: 3rem !important;
+}
+
+.gap-5 {
+  gap: 5rem !important;
+}
+
 .m-0 {
   margin: 0 !important;
 }
 
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
 .mb-1 {
   margin-bottom: 1rem !important;
+}
+
+.mb-2 {
+  margin-bottom: 2rem !important;
 }
 
 .mb-3 {
@@ -92,6 +141,56 @@ body {
 .py-3 {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
+}
+
+.align-left {
+  text-align: left !important;
+}
+
+.align-right {
+  text-align: right !important;
+}
+
+.push-left-1 {
+  margin-right: 1rem;
+}
+
+.push-left-2 {
+  margin-right: 2rem;
+}
+
+.push-left-3 {
+  margin-right: 3rem;
+}
+
+.push-left-4 {
+  margin-right: 4rem;
+}
+
+.push-left-5 {
+  margin-right: 5rem;
+}
+
+.push-left-6 {
+  margin-right: 6rem;
+}
+
+.push-left-7 {
+  margin-right: 7rem;
+}
+
+.push-left-8 {
+  margin-right: 8rem;
+}
+
+.flex-row {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.flex-column {
+  display: flex !important;
+  flex-direction: column !important;
 }
 
 .text-black {
@@ -143,6 +242,14 @@ body {
   color: #032937;
 }
 
+.subtitle > sub {
+  vertical-align: baseline;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: 400;
+  color: #87868c
+}
+
 .text-box {
   width: 100%;
   display: flex;
@@ -155,10 +262,19 @@ body {
   padding: 6rem;
 }
 
+.text-box > .main-content sub {
+  display: block;
+  color: #87868c;
+}
+
+.text-box > .main-content img {
+  width: 100%;
+}
+
 .title {
   font-size: 3rem;
   font-weight: bold;
-  line-height: 3rem;
+  line-height: 4rem;
   text-transform: uppercase;
   background: rgb(0, 130, 203);
   background: linear-gradient(90deg,
@@ -186,6 +302,18 @@ body {
   justify-content: center;
 }
 
+.box-aside.drop-background {
+  background-image: url(../assets/background-gota.png) !important;
+  background-position: top;
+  padding: 0;
+}
+
+.box-aside.drop-background > img {
+  margin-left: 8rem;
+  margin-top: 3rem;
+  width: 80%;
+}
+
 .square-box {
   width: 23rem;
   height: 20rem;
@@ -197,6 +325,86 @@ body {
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
+}
+
+.rounded-box {
+  border-radius: 2rem;
+}
+
+.shadow-box {
+  box-shadow: -7px 7px 13px rgba(0, 0, 0, 0.15);
+}
+
+.card {
+  display: flex;
+  margin: auto;
+  padding: 1.5rem 3rem;
+  background-color: #FFF;
+}
+
+.card.wide {
+  margin-bottom: 3rem;
+  width: 90%;
+  max-width: 960px;
+}
+
+.card.wide > img {
+  width: 20%;
+  max-width: 150px;
+  margin-right: 2rem;
+}
+
+.card.wide > .card-content {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card.wide > .card-content h3 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.card.wide > .card-content p {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #808085;
+}
+
+.card.wide > .card-content ul {
+  margin: 0;
+  padding-left: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #808085;
+}
+
+.card.small {
+  flex-direction: column;
+  min-height: 286px;
+}
+
+.card.small img {
+  max-width: 100%;
+  margin: auto;
+}
+
+.small .space {
+  margin-bottom: 2rem;
+}
+
+.small .space .elipsis:after {
+  content: ".";
+}
+
+a.gradient.small,
+.small a.gradient {
+  text-transform: none;
+}
+
+.small a.gradient {
+  font-size: 1.2rem;
 }
 
 .square-box .box-text {
@@ -310,6 +518,10 @@ body {
   flex-wrap: wrap;
 }
 
+.content.circles.condensed {
+  column-gap: 0;
+}
+
 .content.circles.wide {
   column-gap: 6rem;
 }
@@ -396,7 +608,7 @@ body {
 .circles .circle.big .inner-circle {
   width: 240px;
   height: 240px;
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
   box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.01),
     -2px 2px 1px rgba(0, 0, 0, 0.01),
     -3px 3px 1px rgba(0, 0, 0, 0.01),
@@ -476,6 +688,56 @@ body {
   align-items: center;
 }
 
+.token-arrow {
+  position: relative;
+  transform: rotate(-45deg);
+  width: 15px;
+  height: 15px;
+  margin-bottom: 2rem;
+}
+
+.token-arrow:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 11px;
+  height: 11px;
+  border-left: 2px solid red;
+  border-bottom: 2px solid navy;
+  transform: skew(15deg, 15deg);
+}
+
+.token-number {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.circles.text-bluenavy .token-number,
+.circles.text-bluenavy .token-title,
+.circles.text-bluenavy .token-text {
+  color: #095B80;
+}
+
+.circles.text-bluenavy .token-text {
+  font-size: 1rem;
+}
+.circles.text-bluenavy .token-text strong {
+  font-weight: medium;
+}
+
+.circles.text-bluenavy .token-title {
+  display: inline-block;
+  margin-bottom: .5rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: medium
+}
+
+.circles.condensed .token-circle {
+  margin: 0;
+}
+
 .token-circle.horizontal {
   width: 21rem;
   flex-direction: row;
@@ -515,148 +777,177 @@ body {
 
 .bg-gradient-1,
 .bg-gradient-1 i,
-.bg-gradient-1 span {
-  background: linear-gradient(to right, #8701f2, #b700d3, #b901d2);
+.bg-gradient-1 span,
+.text-gradient-1 {
+  background-image: linear-gradient(to right, #8701f2, #b700d3, #b901d2);
 }
 
 .token-circle .circle.bg-gradient-1 .inner-circle {
   border: 10px solid #8701f2;
 }
 
-.token-circle .token-point.border-color-1 {
+.token-circle .token-point.border-color-1,
+.token-circle .token-arrow.border-color-1:after {
   border-color: #8701f2;
 }
 
 .bg-gradient-2,
 .bg-gradient-2 i,
-.bg-gradient-2 span {
-  background: linear-gradient(to right, #c201cd, #e501b4, #f500a9);
+.bg-gradient-2 span,
+.text-gradient-2 {
+  background-image: linear-gradient(to right, #c201cd, #e501b4, #f500a9);
 }
 
 .token-circle .circle.bg-gradient-1 .inner-circle {
   border: 10px solid #c201cd;
 }
 
-.token-circle .token-point.border-color-1 {
+.token-circle .token-point.border-color-1,
+.token-circle .token-arrow.border-color-1:after {
   border-color: #c201cd;
 }
 
 .bg-gradient-3,
 .bg-gradient-3 i,
-.bg-gradient-3 span {
-  background: linear-gradient(to right, #f803a4, #fe2f75, #ff3172);
+.bg-gradient-3 span,
+.text-gradient-3 {
+  background-image: linear-gradient(to right, #f803a4, #fe2f75, #ff3172);
 }
 
 .token-circle .circle.bg-gradient-3 .inner-circle {
   border: 10px solid #f803a4;
 }
 
-.token-circle .token-point.border-color-3 {
+.token-circle .token-point.border-color-3,
+.token-circle .token-arrow.border-color-3:after {
   border-color: #f803a4;
 }
 
 .bg-gradient-4,
 .bg-gradient-4 i,
-.bg-gradient-4 span {
-  background: linear-gradient(to right, #fe3570, #fe6341, #ff683c);
+.bg-gradient-4 span,
+.text-gradient-4 {
+  background-image: linear-gradient(to right, #fe3570, #fe6341, #ff683c);
 }
 
 .token-circle .circle.bg-gradient-4 .inner-circle {
   border: 10px solid #fe3570;
 }
 
-.token-circle .token-point.border-color-4 {
+.token-circle .token-point.border-color-4,
+.token-circle .token-arrow.border-color-4:after {
   border-color: #fe3570;
 }
 
 .bg-gradient-5,
-.bg-gradient-5 i {
-  background: linear-gradient(to right, #00bce5, #1595e1);
+.bg-gradient-5 i,
+.bg-gradient-5 span,
+.text-gradient-5  {
+  background-image: linear-gradient(to right, #00bce5, #1595e1);
 }
 
 .token-circle .circle.bg-gradient-5 .inner-circle {
   border: 10px solid #476bfd;
 }
 
-.token-circle .token-point.border-color-5 {
-  border-color: #00bce5;
+.token-circle .token-point.border-color-5,
+.token-circle .token-arrow.border-color-5:after {
+  border-color: #476bfd;
 }
 
 .bg-gradient-6,
-.bg-gradient-6 i {
-  background: linear-gradient(to right, #237adf, #3c58dd);
+.bg-gradient-6 i,
+.bg-gradient-6 span,
+.text-gradient-6  {
+  background-image: linear-gradient(to right, #237adf, #3c58dd);
 }
 
 .token-circle .circle.bg-gradient-6 .inner-circle {
   border: 10px solid #306df1;
 }
 
-.token-circle .token-point.border-color-6 {
+.token-circle .token-point.border-color-6,
+.token-circle .token-arrow.border-color-6:after {
   border-color: #237adf;
 }
 
 .bg-gradient-7,
-.bg-gradient-7 i {
-  background: linear-gradient(to right, #5b4fe3, #8642eb);
+.bg-gradient-7 i,
+.bg-gradient-7 span,
+.text-gradient-7 {
+  background-image: linear-gradient(to right, #5b4fe3, #8642eb);
 }
 
 .token-circle .circle.bg-gradient-7 .inner-circle {
   border: 10px solid #583aff;
 }
 
-.token-circle .token-point.border-color-7 {
+.token-circle .token-point.border-color-7,
+.token-circle .token-arrow.border-color-7:after {
   border-color: #5b4fe3;
 }
 
 .bg-gradient-8,
-.bg-gradient-8 i {
-  background: linear-gradient(to right, #a439ef, #b82bb4);
+.bg-gradient-8 i,
+.bg-gradient-8 span,
+.text-gradient-8 {
+  background-image: linear-gradient(to right, #a439ef, #b82bb4);
 }
 
 .token-circle .circle.bg-gradient-8 .inner-circle {
   border: 10px solid #c546c3;
 }
 
-.token-circle .token-point.border-color-8 {
+.token-circle .token-point.border-color-8,
+.token-circle .token-arrow.border-color-8:after {
   border-color: #a439ef;
 }
 
 .bg-gradient-9,
-.bg-gradient-9 i {
-  background: linear-gradient(to right, #c32596, #d7175c);
+.bg-gradient-9 i,
+.bg-gradient-9 span,
+.text-gradient-9 {
+  background-image: linear-gradient(to right, #c32596, #d7175c);
 }
 
 .token-circle .circle.bg-gradient-9 .inner-circle {
   border: 10px solid #ed3346;
 }
 
-.token-circle .token-point.border-color-9 {
+.token-circle .token-point.border-color-9,
+.token-circle .token-arrow.border-color-9:after {
   border-color: #c32596;
 }
 
 .bg-gradient-10,
-.bg-gradient-10 i {
-  background: linear-gradient(to right, #e50d34, #ed4121);
+.bg-gradient-10 i,
+.bg-gradient-10 span,
+.text-gradient-10 {
+  background-image: linear-gradient(to right, #e50d34, #ed4121);
 }
 
 .token-circle .circle.bg-gradient-10 .inner-circle {
   border: 10px solid #ec7844;
 }
 
-.token-circle .token-point.border-color-10 {
+.token-circle .token-point.border-color-10,
+.token-circle .token-arrow.border-color-10:after {
   border-color: #e50d34;
 }
 
 .bg-gradient-11,
-.bg-gradient-11 i {
-  background: linear-gradient(to right, #f46716, #fd9c05);
+.bg-gradient-11 i,
+.bg-gradient-11 span,
+.text-gradient-11 {
+  background-image: linear-gradient(to right, #f46716, #fd9c05);
 }
 
 .token-circle .circle.bg-gradient-11 .inner-circle {
   border: 10px solid #ff7425;
 }
 
-.token-circle .token-point.border-color-11 {
+.token-circle .token-point.border-color-11,
+.token-circle .token-arrow.border-color-11:after {
   border-color: #f46716;
 }
 
@@ -694,6 +985,35 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+dl.arrow-list {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #808085;
+}
+
+dl.arrow-list dt {
+  position: relative;
+  text-transform: uppercase;
+}
+
+dl.arrow-list dd {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 3rem;
+}
+
+dl.arrow-list dt:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-100%, -47%);
+  width: 106px;
+  height: 180px;
 }
 
 footer.text-box {
@@ -739,10 +1059,15 @@ footer.text-box .slogan {
     padding-bottom: 1rem;
     padding: 4rem;
   }
-  
+
   .box-aside {
     background-size: 60%;
     padding: 6rem 4rem;
+  }
+
+  .box-aside.drop-background {
+    background-size: cover;
+    padding: 0;
   }
 
   .btn-box {

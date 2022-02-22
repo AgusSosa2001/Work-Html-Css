@@ -1,0 +1,55 @@
+.text-box > * {
+  align-items: start;
+}
+
+.box-aside.drop-background > img {
+  width: 60%;
+  margin-top: 6rem;
+}
+
+dl.arrow-list {
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  margin-left: 4rem;
+}
+
+dl.arrow-list dd {
+  position: relative;
+}
+
+dl.arrow-list dd:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  transform: translate(-120%, -37%);
+  width: calc(106px / 2);
+  height: calc(180px / 2);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+dl.arrow-list dd:nth-child(1):before {
+  background-image: url(../assets/arrow-lightblue.png);
+}
+
+dl.arrow-list dd:nth-child(2):before {
+  background-image: url(../assets/arrow-blue.png);
+}
+
+dl.arrow-list dd:nth-child(3):before {
+  background-image: url(../assets/arrow-purple.png);
+}
+
+dl.arrow-list dd:nth-child(4):before {
+  background-image: url(../assets/arrow-hotpurple.png);
+}
+
+dl.arrow-list dd:nth-child(5):before {
+  background-image: url(../assets/arrow-red.png);
+}
+dl.arrow-list dd:nth-child(6):before {
+  background-image: url(../assets/arrow-orange.png);
+}

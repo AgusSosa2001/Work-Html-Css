@@ -1,0 +1,9 @@
+.card.wide {
+  padding: 1rem;
+}
+
+.card.wide > img {
+  width: 30%;
+  max-width: 300px;
+  border-radius: 1.5rem;
+}

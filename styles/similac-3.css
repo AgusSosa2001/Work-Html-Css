@@ -1,0 +1,18 @@
+.text-box > * {
+  align-items: start;
+}
+
+.box-aside.drop-background > img {
+  width: 60%;
+  margin-top: 6rem;
+}
+
+dl.arrow-list dd {
+  display: flex;
+  line-height: 3rem;
+}
+
+dl.arrow-list dd i {
+  font-size: 3rem;
+  margin-right: 1rem;
+}
