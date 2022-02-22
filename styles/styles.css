@@ -667,6 +667,32 @@ a.gradient.small,
   transform: skew(15deg, 15deg);
 }
 
+.token-number {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.circles.text-bluenavy .token-number,
+.circles.text-bluenavy .token-title,
+.circles.text-bluenavy .token-text {
+  color: #095B80;
+}
+
+.circles.text-bluenavy .token-text {
+  font-size: 1rem;
+}
+.circles.text-bluenavy .token-text strong {
+  font-weight: medium;
+}
+
+.circles.text-bluenavy .token-title {
+  display: inline-block;
+  margin-bottom: .5rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: medium
+}
+
 .circles.condensed .token-circle {
   margin: 0;
 }
