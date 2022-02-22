@@ -304,6 +304,7 @@ body {
 
 .box-aside.drop-background {
   background-image: url(../assets/background-gota.png) !important;
+  background-position: top;
   padding: 0;
 }
 
@@ -986,6 +987,35 @@ a.gradient.small,
   -webkit-text-fill-color: transparent;
 }
 
+dl.arrow-list {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #808085;
+}
+
+dl.arrow-list dt {
+  position: relative;
+  text-transform: uppercase;
+}
+
+dl.arrow-list dd {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 3rem;
+}
+
+dl.arrow-list dt:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-100%, -47%);
+  width: 106px;
+  height: 180px;
+}
+
 footer.text-box {
   padding: 0;
   margin: 0;
@@ -1033,6 +1063,11 @@ footer.text-box .slogan {
   .box-aside {
     background-size: 60%;
     padding: 6rem 4rem;
+  }
+
+  .box-aside.drop-background {
+    background-size: cover;
+    padding: 0;
   }
 
   .btn-box {

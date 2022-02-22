@@ -54,29 +54,6 @@
   text-align: left;
 }
 
-dl.arrow-list {
-  margin: 0;
-  font-size: 1.6rem;
-  font-weight: 400;
-  color: #808085;
-}
-
-dl.arrow-list dt {
-  position: relative;
-  text-transform: uppercase;
-}
-
-dl.arrow-list dt:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translate(-100%, -47%);
-  width: 106px;
-  height: 180px;
-}
-
 dl.arrow-list dt:nth-child(1):before {
   background-image: url(../assets/left-blue-icon-1.png);
 }
@@ -91,12 +68,6 @@ dl.arrow-list dt:nth-child(5):before {
 
 dl.arrow-list dt:nth-child(7):before {
   background-image: url(../assets/left-orange-icon-4.png);
-}
-
-dl.arrow-list dd {
-  margin: 0;
-  padding: 0;
-  margin-bottom: 3rem;
 }
 
 .especialized-nutrition {
